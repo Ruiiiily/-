@@ -1,0 +1,322 @@
+
+			/*背景色:#d8d4cb , 次级色:#e8e5dc , 方框色:#f5f6f0 , 强调色:#c8d7d2*/
+			*{
+				padding: 0px;
+				margin: 0px;
+			}
+			body{
+				
+			}
+			header{
+				width: 1200px;
+				height: 280px;
+				background: #d8d4cb;
+				border-radius: 30px 30px 0px 0px;
+				margin: auto;
+			}
+			#logo{
+				float: left;
+				padding-left:100px;
+			}
+			#website{
+				font-style: italic;
+				font-size: 12px;
+				position: relative;
+				left: 710px;
+				top: 50px;
+				-webkit-transform: skew(-10deg, 10deg);
+				-moz-transform: skew(-10deg, 10deg);
+			}
+			nav{
+				background: #d8d4cb;
+				width: 1200px;
+				height: 35px;
+				border-radius: 0px 0px 30px 30px;
+				margin: auto;
+				margin-bottom: 10px;
+			}
+			nav ul{
+				font-family: arial;
+				font-size: 18px;
+				list-style: none;
+				padding-right: 80px;
+			}
+			nav ul li a:hover{
+				background-color: #e8e5dc;
+			}
+			nav ul li a {
+				display: block;
+				float: right;
+				color: black;
+				line-height: 35px;
+				text-decoration: none;
+				padding: 0 32px 0 32px;
+				border-radius: 10px 10px 0 0;
+			}
+			aside{
+				width: 1200px;
+				height: 800px;
+				background: #e8e5dc;
+				margin: auto;
+				border-radius: 30px;
+				position: relative;
+			}
+			aside .a-t{
+				width: 900px;
+				height: 200px;
+				background: #f5f6f0;
+				position: relative;
+				top: 30px;
+				left: 150px;
+				border-radius: 20px;
+				
+				-webkit-column-count: 3;
+				-moz-column-count: 3;
+				-webkit-column-rule: 8px solid #e8e5dc;
+				-moz-column-rule: 8px solid #e8e5dc;
+			}
+			aside .a-t div{
+				height: 180px;
+				padding-left: 30px;
+				padding-top: 10px;
+			}
+			aside .a-t div p{
+				font-size: 16px;
+				font-weight: bolder;
+				padding-bottom: 8px;
+			}
+			aside .a-t div ul{
+				font-size: 14px;
+				padding-top: 6px;
+			}
+			aside .a-t div ul li{
+				padding-top: 8px;
+			}
+			aside .a-t div ul li a{
+				text-decoration: none;
+				color:#A9A9A9;
+			}
+			aside .a-l{
+				width: 200px;
+				height: 380px;
+				background: #f5f6f0;
+				position: absolute;
+				top: 260px;
+				left: 30px;
+				border-radius: 20px 0 20px 0;
+			}
+			aside .a-l p{
+				font-size: 16px;
+				font-style: italic;
+				font-weight: bolder;
+				position: absolute;
+				top: 12px;
+				left: 20px;
+			}
+			aside .a-l #a-l-1{
+				position: absolute;
+				top: 6px;
+				left: 90px;
+			}
+			aside .a-l hr{
+				position: absolute;
+				top: 38px;
+				left: 14px;
+			}
+			aside .a-l ol{
+				position: absolute;
+				top: 50px;
+				left: 40px;
+				color: lightcoral;
+			}
+			aside .a-l ol li{
+				margin-bottom: 10px;
+			}
+			aside .a-l ol li a{
+				text-decoration: none;
+				font-size: 14px;
+				font-style: italic;
+				color: black;
+			}
+			aside .a-l ol li a:hover{
+				color: lightcoral;
+			}
+			
+			aside .a-r{
+				width: 870px;
+				height: 500px;
+				background: #f5f6f0;
+				position: relative;
+				top: 60px;
+				left: 280px;
+				border-radius: 0 0 30px 0;
+				border: 3px solid #c8d7d2;
+			}
+			aside .a-r #a-nav{
+				width: 375px;
+				height: 60px;
+				background: #e8e5dc;
+				position: absolute;
+				top: 10px;
+				left: 30px;
+				border-radius: 20px;
+			}
+			aside .a-r ul{
+				list-style: none;
+				position: absolute;
+				top: 20px;
+				left: 7px;
+			}
+			aside .a-r ul li{
+				float: left;
+			}
+			aside .a-r ul li a{
+				display: block;
+				text-decoration: none;
+				color: black;
+				padding: 5px 20px 5px 20px;
+				border-radius:100px ;
+			}
+			aside .a-r ul li a:hover{
+				background: #c8d7d2;
+			}
+			aside .a-r #a-r-1{
+				width: 375px;
+				height: 400px;
+				background: #e8e5dc;
+				position: absolute;
+				top: 80px;
+				left: 30px;
+				border-radius: 20px 0 0 0;
+			}
+			
+			aside .a-r #a-r-2{
+				width: 375px;
+				height: 470px;
+				background: #e8e5dc;
+				position: absolute;
+				top: 10px;
+				left: 435px;
+				border-radius: 0 0 20px 0;
+			}
+			aside #d1{
+				width: 335px;
+				height: 160px;
+				border: 3px solid #c8d7d2;
+				position: absolute;
+				top: 20px;
+				left: 20px;
+				display: table;
+			}
+			aside .a-r-1 a{
+				text-decoration: none;
+				color: black;
+			}
+			aside .a-r-1 a:hover{
+				text-decoration: underline;
+			}
+			aside #pp1{
+				font-size: 16px;
+				font-weight:bolder;
+				padding-top: 4px;
+				padding-left: 8px;
+				padding-bottom: 4px;
+			}
+			aside #pp1 span{
+				color: lightcoral;
+			}
+			aside #pp2{
+				font-size: 12px;
+				padding: 4px;
+			}
+			aside #pp2 span{
+				padding: 2px;
+				background-color:#c8d7d2;
+			}
+			aside #pp3{
+				font-size: 12px;
+				padding: 4px;
+			}
+			aside #dd1{
+				position: absolute;
+				top: 30px;
+				left: 230px;
+			}
+			aside #dd1 #pp4{
+				font-size: 36px;
+			}
+			aside #pp4 span{
+				font-size: 12px;
+				padding: 2px;
+				background-color:#C8D7D2 ;
+			}
+			aside #pp5{
+				font-size: 10px;
+			}
+			aside #dd2{
+				padding-left: 2px;
+				padding-top: 8px;
+			}
+			aside #pp6{
+				font-size: 12px;
+				color: #A9A9A9;
+				padding-left: 16px;
+				padding-bottom: 4px;
+			}
+			aside #pp7{
+				font-size: 12px;
+				margin-left: 6px;
+				margin-right: 6px;
+			}
+			aside #dd3{
+				position: absolute;
+				top: 90px;
+				left: 252px;
+				font-size: 12px;
+			}
+			aside #dd4{
+				position: absolute;
+				top: 142px;
+				left: 190px;
+				font-size: 10px;
+			}
+			
+			aside #d2{
+				width: 335px;
+				height: 160px;
+				border: 3px solid #c8d7d2;
+				position: absolute;
+				top: 210px;
+				left: 20px;
+			}
+			aside #d3{
+				width: 330px;
+				height: 160px;
+				border: 3px solid #c8d7d2;
+				position: absolute;
+				top: 20px;
+				left: 20px;
+			}
+			aside #d4{
+				width: 330px;
+				height: 160px;
+				border: 3px solid #c8d7d2;
+				position: absolute;
+				top: 210px;
+				left: 20px;
+			}
+			aside #d5{
+				width: 330px;
+				height: 40px;
+				border: 3px solid #c8d7d2;
+				position: absolute;
+				top: 400px;
+				left: 20px;
+			}
+			aside #d5 p{
+				position: absolute;
+				line-height: 40px;
+				font-size: 14px;
+				left: 120px;
+			}
+			

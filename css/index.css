@@ -1,0 +1,397 @@
+/*背景色:#d8d4cb , 次级色:#e8e5dc , 方框色:#f5f6f0 , 强调色:#c8d7d2*/
+			*{
+				padding: 0px;
+				margin: 0px;
+			}
+			body{
+				
+			}
+			header{
+				width: 1200px;
+				height: 280px;
+				background: #d8d4cb;
+				border-radius: 30px 30px 0px 0px;
+				margin: auto;
+			}
+			#logo{
+				position: absolute;
+				float: left;
+				padding-left:100px;
+			}
+			#search{
+				line-height: 280px;
+				position: relative;
+				left: 950px;
+			}
+			#website{
+				font-style: italic;
+				font-size: 12px;
+				position: relative;
+				left: 1080px;
+				top: -160px;
+				-webkit-transform: skew(-10deg, 10deg);
+				-moz-transform: skew(-10deg, 10deg);
+				
+			}
+			nav{
+				background: #d8d4cb;
+				width: 1200px;
+				height: 35px;
+				border-radius: 0px 0px 30px 30px;
+				margin: auto;
+			}
+			nav ul{
+				font-family: arial;
+				font-size: 18px;
+				list-style: none;
+				padding-right: 80px;
+			}
+			nav ul li a:hover{
+				background-color: #e8e5dc;
+			}
+			nav ul li a {
+				display: block;
+				float: right;
+				color: black;
+				line-height: 35px;
+				text-decoration: none;
+				padding: 0 32px 0 32px;
+				border-radius: 10px 10px 0 0;
+			}
+			
+			aside{
+				width: 1200px;
+				height: 770px;
+				background: #e8e5dc;
+				border-radius: 30px 30px 30px 30px;
+				margin: auto;
+				margin-top: 10px;
+				position: relative;
+				}
+			aside a{
+				text-decoration: none;
+				color: #000000;
+			}
+			aside a:hover{
+				color: lightcoral;
+			}
+			aside .l-aside strong{
+				font-size: 20px;
+				font-style: italic;
+				position: absolute;
+				left: 40px;
+				top: 20px;
+			}
+			aside .l-aside .boy-hr{
+				position: absolute;
+				left: 20px;
+				top: 48px;
+			}
+			
+			aside .l-aside .cate-cell-1{
+				position: absolute;
+				left: 20px;
+				top: 70px;
+				width: 300px;
+				height: 300px;
+				background: #f5f6f0;
+			}
+			aside .l-aside .cate-cell-1 img{
+				position: absolute;
+				left: 100px;
+				top: 6px;
+			}
+			aside .l-aside .cate-cell-1 .p1{
+				font-size: 20px;
+				font-weight:bolder;
+				position: absolute;
+				top: 110px;
+				left: 130px;
+			}
+			aside .l-aside .cate-cell-1 .p2{
+				font-size: 14px;
+				position: absolute;
+				top: 138px;
+				left: 118px;
+				color: dimgray;
+			}
+			aside .l-aside .cate-cell-1 .p3{
+				font-size: 12px;
+				position: absolute;
+				top: 160px;
+				left: 104px;
+				color: darkgray;
+			}
+			aside .l-aside .cate-cell-1 .p4{
+				font-size: 14px;
+				position: absolute;
+				top: 160px;
+				padding: 20px;
+			}
+			aside .l-aside .cate-cell-1 input{
+				position: absolute;
+				top: 260px;
+				left: 94px;
+			}
+			
+			aside .l-aside .cate-cell-2{
+				position: absolute;
+				left: 320px;
+				top: 70px;
+				width: 286px;
+				height: 150px;
+				/*background: #f5f6f0;*/
+			}
+			aside .l-aside div div span{
+				color: #A9A9A9;
+			}
+			aside .l-aside div div .p21{
+				font-size: 16px;
+				font-weight: bolder;
+				position: absolute;
+				left: 20px;
+				top: 10px;
+			}
+			aside .l-aside div div .p22{
+				position: absolute;
+				left: 20px;
+				top: 45px;
+			}
+			aside .l-aside div div .p23{
+				position: absolute;
+				left: 20px;
+				top: 70px;
+			}
+			aside .l-aside div div .p24{
+				position: absolute;
+				left: 20px;
+				top: 95px;
+			}
+			aside .l-aside div div .p25{
+				position: absolute;
+				left: 20px;
+				top: 120px;
+			}
+			aside .l-aside div div button{
+				position: absolute;
+				left: 240px;
+				top: 10px;
+			}
+		
+			aside .l-aside .cate-cell-3{
+				position: absolute;
+				left: 320px;
+				top: 220px;
+				width: 286px;
+				height: 150px;
+				/*background: #f5f6f0;*/
+			}
+			
+			aside .l-aside .cate-cell-4{
+				position: absolute;
+				left: 606px;
+				top: 70px;
+				width: 286px;
+				height: 150px;
+				/*background: #f5f6f0;*/
+			}
+			aside .l-aside .cate-cell-5{
+				position: absolute;
+				left: 606px;
+				top: 220px;
+				width: 286px;
+				height: 150px;
+				/*background: #f5f6f0;*/
+			}
+			aside .l-aside .cate-cell-6{
+				position: absolute;
+				left: 892px;
+				top: 70px;
+				width: 286px;
+				height: 150px;
+				/*background: #f5f6f0;*/
+			}
+			aside .l-aside .cate-cell-7{
+				position: absolute;
+				left: 892px;
+				top: 220px;
+				width: 286px;
+				height: 150px;
+				/*background: #f5f6f0;*/
+			}
+			
+			aside .r-aside strong{
+				font-size: 20px;
+				font-style: italic;
+				position: absolute;
+				left: 40px;
+				top: 400px;
+			}
+			aside .r-aside .girl-hr{
+				position: absolute;
+				left: 20px;
+				top: 428px;
+			}
+			aside .r-aside .cate-cell-11{
+				position: absolute;
+				left: 20px;
+				top: 450px;
+				width: 300px;
+				height: 300px;
+				background: #f5f6f0;
+			}
+			aside .r-aside .cate-cell-11 img{
+				position: absolute;
+				left: 100px;
+				top: 6px;
+			}
+			aside .r-aside .cate-cell-11 .p1{
+				font-size: 20px;
+				font-weight:bolder;
+				position: absolute;
+				top: 110px;
+				left: 110px;
+			}
+			aside .r-aside .cate-cell-11 .p2{
+				font-size: 14px;
+				position: absolute;
+				top: 138px;
+				left: 118px;
+				color: dimgray;
+			}
+			aside .r-aside .cate-cell-11 .p3{
+				font-size: 12px;
+				position: absolute;
+				top: 160px;
+				left: 94px;
+				color: darkgray;
+			}
+			aside .r-aside .cate-cell-11 .p4{
+				font-size: 14px;
+				position: absolute;
+				top: 160px;
+				padding: 20px;
+			}
+			aside .r-aside .cate-cell-11 input{
+				position: absolute;
+				top: 260px;
+				left: 94px;
+			}
+			
+			aside .r-aside .cate-cell-22{
+				position: absolute;
+				left: 320px;
+				top: 450px;
+				width: 286px;
+				height: 300px;
+				/*background: #f5f6f0;*/
+			}
+			aside .r-aside div div span{
+				color: #A9A9A9;
+			}
+			aside .r-aside div div .p21{
+				font-size: 16px;
+				font-weight: bolder;
+				position: absolute;
+				left: 20px;
+				top: 10px;
+			}
+			aside .r-aside div div img{
+				position: absolute;
+				top: 40px;
+				left: 20px;
+			}
+			aside .r-aside div div .p22{
+				position: absolute;
+				left: 128px;
+				right: 20px;
+				top: 38px;
+			}
+			aside .r-aside div div .p23{
+				position: absolute;
+				left: 128px;
+				right: 20px;
+				top: 85px;
+				font-size: 14px;
+				color:#696969
+			}
+			aside .r-aside div div .p24{
+				position: absolute;
+				left: 20px;
+				top: 150px;
+			}
+			aside .r-aside div div .p25{
+				position: absolute;
+				left: 20px;
+				top: 178px;
+			}
+			aside .r-aside div div .p26{
+				position: absolute;
+				left: 20px;
+				top: 206px;
+			}
+			aside .r-aside div div .p27{
+				position: absolute;
+				left: 20px;
+				top: 234px;
+			}
+			aside .r-aside div div .p28{
+				position: absolute;
+				left: 20px;
+				top: 262px;
+			}
+			aside .r-aside div div button{
+				position: absolute;
+				left: 240px;
+				top: 10px;
+			}
+			
+			aside .r-aside .cate-cell-44{
+				position: absolute;
+				left: 606px;
+				top: 450px;
+				width: 286px;
+				height: 300px;
+				/*background: #f5f6f0;*/
+			}
+			
+			aside .r-aside .cate-cell-66{
+				position: absolute;
+				left: 892px;
+				top: 450px;
+				width: 286px;
+				height: 300px;
+				/*background: #f5f6f0;*/
+			}
+			
+			footer{
+				width: 1200px;
+				height: 30px;
+				background: #e8e5dc;
+				margin: auto;
+				border-radius: 30px 30px 30px 30px;
+				margin-top: 10px;
+			}
+			footer ul{
+				font-family: arial;
+				font-size: 14px;
+				list-style: none;
+				position: relative;
+				left: 165px;
+			}
+			footer ul li{
+				float: left;
+			}
+			footer ul li a:hover{
+				background-color: #f5f6f0;
+			}
+			footer ul li a {
+				display: block;
+				float: right;
+				color: black;
+				line-height: 35px;
+				text-decoration: none;
+				padding: 0 32px 0 32px;
+				border-radius: 10px 10px 0 0;
+				
+			}

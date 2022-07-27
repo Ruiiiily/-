@@ -1,0 +1,78 @@
+			/*背景色:#d8d4cb , 次级色:#e8e5dc , 方框色:#f5f6f0 , 强调色:#c8d7d2*/
+			*{
+				padding: 0px;
+				margin: 0px;
+			}
+			body{
+				
+			}
+			header{
+				width: 1200px;
+				height: 280px;
+				background: #d8d4cb;
+				border-radius: 30px 30px 0px 0px;
+				margin: auto;
+			}
+			#logo{
+				float: left;
+				padding-left:100px;
+			}
+			#website{
+				font-style: italic;
+				font-size: 12px;
+				position: relative;
+				left: 710px;
+				top: 50px;
+				-webkit-transform: skew(-10deg, 10deg);
+				-moz-transform: skew(-10deg, 10deg);
+			}
+			nav{
+				background: #d8d4cb;
+				width: 1200px;
+				height: 35px;
+				border-radius: 0px 0px 30px 30px;
+				margin: auto;
+			}
+			nav ul{
+				font-family: arial;
+				font-size: 18px;
+				list-style: none;
+				padding-right: 80px;
+			}
+			nav ul li a:hover{
+				background-color: #e8e5dc;
+			}
+			nav ul li a {
+				display: block;
+				float: right;
+				color: black;
+				line-height: 35px;
+				text-decoration: none;
+				padding: 0 32px 0 32px;
+				border-radius: 10px 10px 0 0;
+			}
+			
+			aside{
+				background: #e8e5dc;
+				border-radius: 30px 30px 30px 30px;
+			}
+			aside .picture{
+				-webkit-column-width:200px;
+				-moz-column-width:200px;
+				-webkit-column-gap:10px;
+				-moz-column-gap:10x;
+				 position: relative; 
+				 text-align: center; 
+				 margin: 0px auto;
+				 margin-left: 20px; 
+				 margin-right: 20px; 
+				 margin-top: 10px;
+			}
+			aside .pic-1{
+				background:#c8d7d2;
+				border:#f5f6f0 3px solid;
+				display:inline-block;
+				width:200px;
+				margin:5px;
+				
+			}
